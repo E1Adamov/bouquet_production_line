@@ -2,7 +2,7 @@
 
 ### Prerequisites:
 - Python 3.8.2 or higher
-- internet connection fo installing 3rd party packages
+- internet connection for installing 3rd party packages
 - Docker
 
 ### Installation
