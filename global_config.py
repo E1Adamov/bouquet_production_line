@@ -1,0 +1,3 @@
+PROD_LINE_HOST_NAME = "127.0.0.1"
+PROD_LINE_PORT = 55566
+PROD_LINE_URL = "ws/bouquet-order"

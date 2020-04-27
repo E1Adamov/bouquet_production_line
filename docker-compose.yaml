@@ -1,0 +1,15 @@
+version: '3.7'
+
+
+services:
+  reverseproxy:
+    build: ./nginx
+    ports:
+      - 55566:80
+    restart: always
+
+  server:
+    build: ./server
+    restart: unless-stopped
+    volumes:
+      - ./server/src:/home/workspace/src
